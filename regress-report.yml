@@ -10,7 +10,7 @@ test-cases:
     
   - summary: |
       Просмотр подробной информации о товваре
-     status: fail
+    status: fail
       
   - summary: |
       Добавление товара в корзину
