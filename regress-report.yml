@@ -1,1 +1,19 @@
-
+---
+test-cases:
+  - summary: |
+      Добавление товара в корзину
+    status: pass
+    
+  - summary: |
+      Поиск товара по категории
+    status: pass 
+    
+  - summary: |
+      Просмотр подробной информации о товваре
+     status: fail
+      
+  - summary: |
+      Добавление товара в корзину
+    status: pass
+    
+bugreports:
