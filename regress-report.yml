@@ -12,7 +12,7 @@ test-cases:
       Просмотр подробной информации о товаре
     status: fail
 
- - summary: |
+  - summary: |
       Добавление товара в корзину
     status: pass
     
