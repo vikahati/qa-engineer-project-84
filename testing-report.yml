@@ -12,5 +12,5 @@
   status: fail
   
  - summary: |
- Добавление товара в корзину
- status: pass
+    Добавление товара в корзину
+   status: pass
