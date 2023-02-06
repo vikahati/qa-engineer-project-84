@@ -1,0 +1,17 @@
+---
+- summary: |
+    Добавление товара в корзину
+  status: fail
+
+- summary: |
+    Поиск товара по категории
+  status: fail
+
+- summary: |
+    Просмотр подробной информации о товаре
+  status: fail
+
+- summary: |
+    Добавление товара в корзину
+  status: pass
+
