@@ -16,31 +16,31 @@ test-cases:
       Добавление товара в корзину
     status: pass
      
- bugreports:
-   - summary: |
-       При выбранном языке Русский описание товара выходит на английском
-     environment: |
-       Яндекс Браузер 23.1.0.2947 ( 64 бит )
-       OC Windows 10
-     steps-to-reproduce: |
-       1. Зайти на главную страницу магазина https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-       2. Выбрать любой товар например Iphone 9
-       3. Нажать на фото товара
-     expected-result: |
-       Открыта страница с описанием товара на русском языке
-     actual-result: |
-       Открыта страница с описанием на английском языке
+bugreports:
+  - summary: |
+      При выбранном языке Русский описание товара выходит на английском
+    environment: |
+      Яндекс Браузер 23.1.0.2947 ( 64 бит )
+      OC Windows 10
+    steps-to-reproduce: |
+      1. Зайти на главную страницу магазина https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+      2. Выбрать любой товар например Iphone 9
+      3. Нажать на фото товара
+    expected-result: |
+      Открыта страница с описанием товара на русском языке
+    actual-result: |
+      Открыта страница с описанием на английском языке
       
-   - summary: |
-       Не работает поиск по цене
-     environment: |
-       Яндекс Браузер 23.1.0.2947 ( 64 бит )
-       OC Windows 10
-     steps-to-reproduce: |
-       1. Зайти на главную страницу магазина https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-       2. В левом столбце в строке цена вводим парметры от 100 до 5000
-     expected-result: |
-       Открыта страница с товаром в ценовой политике от 100 до 5000
-     actual-result: |
-       Запрос не выполняется 
+  - summary: |
+      Не работает поиск по цене
+    environment: |
+      Яндекс Браузер 23.1.0.2947 ( 64 бит )
+      OC Windows 10
+    steps-to-reproduce: |
+      1. Зайти на главную страницу магазина https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+      2. В левом столбце в строке цена вводим парметры от 100 до 5000
+    expected-result: |
+      Открыта страница с товаром в ценовой политике от 100 до 5000
+    actual-result: |
+      Запрос не выполняется 
     
