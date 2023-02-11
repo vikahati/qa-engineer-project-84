@@ -31,15 +31,15 @@ bugreports:
     actual-result: |
       Открыта страница с описанием товара на английском языке
  
-  - summary: |
-      Не работает поиск по цене
-    environment: |
-      Яндекс Браузер 23.1.0.2947 (64 бит )
-      OS Windows 10
-    steps-to-reproduce: |
-      1. Зайти на главную страницу магазина https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-      2. В левом столбце в строке цена вводим параметры от 100 до 5000
-    expected-result: |
-      Открыта страница с товаром в ценовой политике от 100 до 5000
-    actual-result: |
-      Запрос не выполняется
+   - summary: |
+       Не работает поиск по цене
+     environment: |
+       Яндекс Браузер 23.1.0.2947 (64 бит )
+       OS Windows 10
+     steps-to-reproduce: |
+       1. Зайти на главную страницу магазина https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+       2. В левом столбце в строке цена вводим параметры от 100 до 5000
+     expected-result: |
+       Открыта страница с товаром в ценовой политике от 100 до 5000
+     actual-result: |
+       Запрос не выполняется
